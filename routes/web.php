@@ -72,5 +72,4 @@ Route::middleware(['pengguna.auth'])->group(function () {
         Route::get('/reports', [LaporanController::class, 'webIndex'])->name('reports.index');
     });
 
-
 });
